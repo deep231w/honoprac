@@ -16,7 +16,7 @@ import { sign, verify } from 'hono/jwt'
 // 		DATABASE_URL: string,
 // 		JWT_SECRET: string,
 // 	}
-// }>();
+// }>(); 
 
 app.post('/api/v1/signup', async(c) => {
     const prisma =new PrismaClient({
