@@ -11,7 +11,7 @@ import { sign, verify } from 'hono/jwt'
 }>();
 
 // Create the main Hono app
-// const app = new Hono<{
+// const app = new Hono<{ 
 // 	Bindings: {
 // 		DATABASE_URL: string, 
 // 		JWT_SECRET: string,
